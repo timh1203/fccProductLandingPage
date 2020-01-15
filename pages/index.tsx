@@ -1,16 +1,8 @@
-import { NextPage } from 'next'
+// LOCAL IMPORTS
+import '../styles/index.scss'
 
-interface Props {
-  userAgent?: string;
-}
-
-const Page: NextPage<Props> = ({ userAgent }) => (
-  <main>Your user agent: {userAgent}</main>
+const Index = () => (
+  <main className="example">Index Page</main>
 )
 
-Page.getInitialProps = async ({ req }) => {
-  const userAgent = req ? req.headers['user-agent'] : navigator.userAgent
-  return { userAgent }
-}
-
-export default Page
+export default Index
