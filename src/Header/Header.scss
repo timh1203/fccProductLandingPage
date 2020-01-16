@@ -1,3 +1,21 @@
 #header {
   color: green;
+  display: flex;
+  justify-content: space-between;
+
+  .header-col-1 {
+    width: 25%;
+  }
+
+  .header-col-2 {
+    width: 50%;
+    #nav-bar {
+      ul {
+        display: flex;
+        justify-content: space-around;
+        font-size: 24px;
+        list-style-type: none;
+      }
+    }
+  }
 }
