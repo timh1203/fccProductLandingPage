@@ -1,9 +1,14 @@
 // LOCAL IMPORTS
 import '../styles/index.scss'
-import { Header } from '../src/index.js'
+import { Features, Header, Pricing, Usage } from '../src/index.js'
 
 const Index = () => (
-  <Header />
+  <>
+    <Header />
+    <Features />
+    <Pricing />
+    <Usage />
+  </>
 )
 
 export default Index

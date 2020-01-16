@@ -10,9 +10,15 @@ const Header = () => {
       <div className="header-col-2">
         <nav id="nav-bar">
           <ul>
-            <li>Features</li>
-            <li>Usage</li>
-            <li>Pricing</li>
+            <a className="nav-link" href="#features">
+              <li>Features</li>
+            </a>
+            <a className="nav-link" href="#usage">
+              <li>Usage</li>
+            </a>
+            <a className="nav-link" href="#pricing">
+              <li>Pricing</li>
+            </a>
           </ul>
         </nav>
       </div>
