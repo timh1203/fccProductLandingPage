@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <main id="header">
       <div className="header-col-1">
-        <img id="header-img" src="/static/pictekLogo.svg" alt="logo" />
+        <img id="header-img" src="/static/pictekLogo.jpg" alt="Piktek Logo" />
       </div>
       <div className="header-col-2">
         <nav id="nav-bar">
