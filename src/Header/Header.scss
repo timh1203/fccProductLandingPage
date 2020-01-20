@@ -2,6 +2,18 @@
   color: green;
   display: flex;
   justify-content: space-between;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  padding-bottom:5px;
+  background: linear-gradient(to left,rgb(4, 245, 24) 0%,rgb(1, 238, 255) 50%)
+    bottom
+    left
+    white
+    no-repeat;
+  background-size:100% 5px ;
 
   .header-col-1 {
     width: 25%;

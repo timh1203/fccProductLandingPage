@@ -47,7 +47,6 @@ const Pricing = () => {
             placeholder="Type your first name"
             value={info.firstName}
             onChange={setInfo}
-            autoFocus
             required
           />
         </div>
