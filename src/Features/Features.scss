@@ -20,12 +20,12 @@
 
   .features-blobs {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 
     div {
       flex: 1 1 30%;
-      margin: 1rem;
+      margin: 1rem 0;
 
       p {
         width: 70%;
