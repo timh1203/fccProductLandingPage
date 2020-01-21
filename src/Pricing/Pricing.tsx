@@ -49,6 +49,7 @@ const Pricing = () => {
         <form onSubmit={handleSubmit}>
           <div className="for-group group1">
             <label htmlFor="firstName">First Name:</label>
+            &nbsp;
             <input
               id="firstName"
               name="firstName"
@@ -61,6 +62,7 @@ const Pricing = () => {
           </div>
           <div className="for-group group2">
             <label htmlFor="lastName">Last Name:</label>
+            &nbsp;
             <input
               id="lastName"
               name="lastName"
@@ -71,6 +73,7 @@ const Pricing = () => {
           </div>
           <div className="for-group group3">
             <label htmlFor="email">Email:</label>
+            &nbsp;
             <input
               id="email"
               name="email"
@@ -81,6 +84,7 @@ const Pricing = () => {
           </div>
           <div className="for-group group4">
             <label htmlFor="email">Message:</label>
+            &nbsp;
             <textarea
               id="message"
               name="message"
