@@ -1,0 +1,24 @@
+#pricing {
+  .pricing-col {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .pricing-col-2 {
+      font-size: 2rem;
+      span {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .pricing-contact {
+    margin: 0 auto;
+    width: 40%;
+    h3, p {
+      display: inline;
+    }
+    form {
+    }
+  }
+}
