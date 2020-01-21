@@ -7,7 +7,7 @@
   width: 100%;
   position: fixed;
   background-color: white;
-  padding-bottom:5px;
+  padding-bottom: 5px;
   background: linear-gradient(to left,rgb(4, 245, 24) 0%,rgb(1, 238, 255) 50%)
     bottom
     left
@@ -17,8 +17,17 @@
 
   .header-col-1 {
     width: 25%;
+    transform: translateX(15px) translateY(15px);
     #header-img {
       width: 50%;
+    }
+
+    @media (max-width: 768px) {
+      width: 30%;
+      transform: translateX(10px) translateY(10px);
+      #header-img {
+        width: 100%;
+      }
     }
   }
 
@@ -30,6 +39,17 @@
         justify-content: space-around;
         font-size: 24px;
         list-style-type: none;
+        a {
+          border-left: 2px solid #6FB93E;
+          border-bottom: 2px solid white;
+          padding-left: 5px;
+          text-decoration: none;
+          color: gray;
+        }
+        a:hover {
+          border-left: none;
+          border-bottom: 2px solid #6FB93E;
+        }
       }
     }
   }
