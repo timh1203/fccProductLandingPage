@@ -9,7 +9,8 @@ const Pricing = () => {
   const [info, setInfo] = useFormFields({
     firstName: '',
     lastName: '',
-    email: ''
+    email: '',
+    message: '',
   })
 
   const handleSubmit = async (e: any) => {
@@ -75,6 +76,15 @@ const Pricing = () => {
               name="email"
               type="email"
               placeholder="Type your email"
+              onChange={setInfo}
+              required />
+          </div>
+          <div className="for-group group4">
+            <label htmlFor="email">Message:</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Type your message"
               onChange={setInfo}
               required />
           </div>
