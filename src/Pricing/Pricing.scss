@@ -4,10 +4,23 @@
     justify-content: space-around;
     align-items: center;
 
+    @media (max-width: 768px) {
+      display: initial;
+    }
+
+    .pricing-col-1 {
+      @media (max-width: 768px) {
+        text-align: center;
+      }
+    }
+
     .pricing-col-2 {
       font-size: 2rem;
       span {
         text-decoration: underline;
+      }
+      @media (max-width: 768px) {
+        text-align: center;
       }
     }
   }
@@ -16,6 +29,9 @@
     margin: 0 auto;
     width: 40%;
     text-align: center;
+    @media (max-width: 768px) {
+      width: 80%;
+    }
     h3, p {
       display: inline;
     }
@@ -31,10 +47,17 @@
         justify-content: flex-start;
         margin: 1rem auto;
         width: 50%;
+        @media (max-width: 768px) {
+          justify-content: center;
+          width: 60%;
+        }
 
         input,
         textarea {
           padding: 5px;
+          border-radius: 3px;
+          border: none;
+          border-bottom: 1px solid black;
         }
       }
     }
