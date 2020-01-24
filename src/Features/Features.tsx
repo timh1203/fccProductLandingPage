@@ -1,6 +1,3 @@
-// PACKAGE IMPORTS
-import Youtube from 'react-youtube'
-
 // LOCAL IMPORTS
 import './Features.scss'
 
@@ -9,39 +6,32 @@ const Features = () => {
     <main id="features">
       <img className="features-banner" src="/static/hero1.jpg" alt="Feature Banner" />
       <h1>Features</h1>
-      <section className="features-video">
-        <Youtube
-          id="video"
-          videoId="nG4dL13PFrg"
-          opts={{ width: '640', height: '390' }}
-        />
-      </section>
       <section className="features-hero">
         <img id="header-img" src="/static/hero2.jpg" alt="Hero Banner" />
         <ul>
           <li>
             【Multiple Lighting Modes Enhance the Game Atmosphere】
-            <br/>
+            <br />
             PICTEK 87-Key compact gaming keyboard is designed with 27 types lighting modes to meet your needs of different game scenes, which also allows you to program your own backlight mode. The brightness, speed, direction are all available to change by specific keys.
           </li>
           <li>
             【Ultimate Typing Feedback】
-            <br/>
+            <br />
             This mechanical keyboard adopts professional equivalent switches, proving quicker and precise response, to win opportunities for you in the game. Blue switch offeres crisp sound, which is an enjoyment for gamers during the intense game. Comes with keycap puller for easy keycaps cleaning.
           </li>
           <li>
             【Smooth Gaming Experience & Efficienct Typing】
-            <br/>
+            <br />
             Full keys anti-ghosting design is more friendly to user, ensuring a sooth typing during gaming or working, reducing mistakes. 12 shortcuts makes you easily access to the email, calculator, player, my computer, as well as other media controlling functions, volume up/down, play/pause, stop, mute, previous/next track, upgarding the convenience and efficiency when using.
           </li>
           <li>
             【Better Durability & Comfortable Design】
-            <br/>
+            <br />
             Equipped with double-shot injection molded keycaps to ensure the letters on the kaycap will not fade. The wired gaming keyboard experienced 10, 000, 000 times keystrokes test to promise the durability. Foldable stand at the back of the keyboard allows you to choose the best typing height, reduce fatigue diring typing.
           </li>
           <li>
             【Easy OF use & PICTEK service】
-            <br/>
+            <br />
             this small gaming Keyboard is very easy and portable to use, Plug and play. This USB keyboard is perfectly compatible with Windows7/8/10/XP/Vista, Mac OS (Note: multimedia shortcuts are not available in Mac OS system). ❤❤PICTEK will spare no effort to provide the best service to every customer, feel free to Contact us anytime, We will reply you within 12 hours.
           </li>
         </ul>

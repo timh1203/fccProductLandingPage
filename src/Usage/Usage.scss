@@ -1,8 +1,37 @@
 #usage {
   margin: auto;
-  img {
-    @media (max-width: 768px) {
-      width: 100%;
+
+  .usage-intro {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+  }
+
+  .usage-info {
+    margin: auto;
+    font-size: 1.2rem;
+
+    .usage-info-text {
+      width: 50%;
+      margin: auto;
+    }
+
+    .usage-info-image {
+      text-align: center;
     }
   }
+  // .usage-video {
+  //   text-align: center;
+  // }
+
+  // .usage-instructions {
+  //   width: 100%;
+  //   // margin: auto;
+  //   text-align: center;
+  //   img {
+  //     @media (max-width: 768px) {
+  //       width: 100%;
+  //     }
+  //   }
+  // }
 }
