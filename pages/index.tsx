@@ -1,9 +1,10 @@
 // LOCAL IMPORTS
 import '../styles/index.scss'
-import { Features, Header, Pricing, Usage } from '../src/index.js'
+import { Carousel, Features, Header, Pricing, Usage } from '../src/index.js'
 
 const Index = () => (
   <>
+    <Carousel />
     <Header />
     <Features />
     <Pricing />

@@ -4,10 +4,8 @@ import './Features.scss'
 const Features = () => {
   return (
     <main id="features">
-      <img className="features-banner" src="/static/hero1.jpg" alt="Feature Banner" />
       <h1>Features</h1>
-      <section className="features-hero">
-        <img id="header-img" src="/static/hero2.jpg" alt="Hero Banner" />
+      <section className="features-info">
         <ul>
           <li>
             【Multiple Lighting Modes Enhance the Game Atmosphere】
